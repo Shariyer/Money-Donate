@@ -1,0 +1,134 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    
+    font-size: 100px;
+    
+}
+.button{
+    background-image: linear-gradient(green,black);
+    color: whitesmoke;
+    padding: 20px 20px;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.first-section{
+    text-align: center;
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(28, 110, 22);
+    height: 700px;
+    
+}
+.p1{
+    color: rgb(1, 100, 79);
+    font-size: 30px;
+    width:50%
+    
+}
+
+    
+
+.Third-hding-para{
+    text-align: center;
+
+}
+.third-section-parent{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.section-three-paragraph{
+    text-align: 30%;
+    
+}
+.third-section-child{
+    margin: 5%;
+    align-items: justify;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px green;
+    padding: 50px 10px; 
+    
+}
+#child-one{
+    background-color: rgba(85, 77, 85, 0.452);
+}
+#child-two{
+    background-color: rgba(156, 179, 74, 0.767);
+}
+#child-three{
+    background-color: rgba(56, 97, 73, 0.616);
+}
+.para-adjustment{
+    width: 25%;
+    padding: 0% 40%;
+}
+.second-section-child{
+    margin: 2px;
+    
+    
+   
+    
+}
+.second-section-parent{
+    
+    display: flex;
+    width: 40%;
+    margin-left: 40%;
+    
+    
+    
+   
+}
+.donate-button{
+    background-color: white;
+    color: black;
+    border: 3px solid #216d23;
+    padding: 20px 30px;
+    margin: 0;
+
+}
+#donate-amount{
+    border: none;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+#rowline{
+    width: 25%;
+}
+#b-position{
+    margin: 0% 50%;
+}
+.subscribe-parent{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: burlywood;
+    padding: 80px 30px;
+    font-size: 40%;
+}
+#email{
+    background-color: antiquewhite;
+}
+.subscribe-child1{
+    color: #216d23;
+}
+footer{
+    text-align: center;
+    
+    background-color: black;
+}
+.humble{
+    font-style: italic;
+    color: red;
+}
+.doit{
+    color: azure;
+}
