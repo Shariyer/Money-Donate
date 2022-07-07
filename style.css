@@ -3,10 +3,11 @@ body{
 }
 h1{
     
-    font-size: 100px;
+    font-size: 80px;
     
 }
 .button{
+    
     background-image: linear-gradient(green,black);
     color: whitesmoke;
     padding: 20px 20px;
@@ -15,19 +16,38 @@ h1{
 }
 .first-section{
     text-align: center;
-    background-image: url(images/donation0.jpg);
+    background-image: url(images/donation2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(28, 110, 22);
     height: 700px;
     
 }
+#box1{
+    border: 3px solid #fae903;
+}
+#box2{
+    border: 3px solid #117204;
+}
+#box3{
+    border: 3px solid #4e1b55;
+}
+#box4{
+    border: 3px solid #0030ce;
+}
+#box5{
+    border: 3px solid #03d7f3;
+}
+
 .p1{
-    color: rgb(1, 100, 79);
+    font-weight: 100px;
+    color: rgba(253, 0, 0, 0.842);
     font-size: 30px;
-    width:50%
+    width: 25%;
+    
     
 }
+
 
     
 
@@ -66,6 +86,9 @@ h1{
 .para-adjustment{
     width: 25%;
     padding: 0% 40%;
+    margin: 0% -3%;
+    margin-top: -3%;
+    margin-bottom:3%;
 }
 .second-section-child{
     margin: 2px;
@@ -77,8 +100,9 @@ h1{
 .second-section-parent{
     
     display: flex;
-    width: 40%;
-    margin-left: 40%;
+    padding: 100px 30px 100px 30px;
+    align-items: center;
+    justify-content: center;
     
     
     
@@ -87,9 +111,10 @@ h1{
 .donate-button{
     background-color: white;
     color: black;
-    border: 3px solid #216d23;
+    
     padding: 20px 30px;
-    margin: 0;
+    align-items: center;
+    justify-content: center;
 
 }
 #donate-amount{
@@ -103,32 +128,58 @@ h1{
     width: 25%;
 }
 #b-position{
-    margin: 0% 50%;
+    margin: 0% 48%;
 }
 .subscribe-parent{
     display: flex;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    
     background-color: burlywood;
-    padding: 80px 30px;
+    padding: 60px 45px;
     font-size: 40%;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
 }
 #email{
-    background-color: antiquewhite;
+    background-color: rgb(155, 231, 93);
+    
 }
-.subscribe-child1{
-    color: #216d23;
+.subscribe-child{
+    background-image: linear-gradient(rgb(95, 167, 95),rgb(129, 0, 0));
+    color: whitesmoke;
+    padding: 20px 20px;
+    margin-top: 80px;
+    font-size: 30px;
 }
+#subscribe-child1{
+    background-color: beige;
+}
+#subscribe-child2{
+    background-color: blueviolet;
+}
+
 footer{
     text-align: center;
     
     background-color: black;
+    height:100px;
 }
 .humble{
-    font-style: italic;
+   font-style: italic;
+   font-size: 20px;
     color: red;
+    margin: 0%;
+    font-family: "Sofia", sans-serif;
 }
 .doit{
     color: azure;
+}
+.video-section{
+    display: flex;
+    margin-left: 5%;
+    padding: 10px 10px;
+}
+#campaign-text{
+    margin-left: 5%;
 }
